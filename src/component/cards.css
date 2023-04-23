@@ -1,0 +1,65 @@
+
+.Filters h3{
+    font-weight: 500;
+}
+.Filters .filterSection button{
+    padding: 8px 20px;
+    margin: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid blue;
+    color: #0048ff;
+}
+.Filters .filterSection button:nth-child(1){
+    color: #fff;
+    background-image: linear-gradient(269deg, #0048ff, #2192FF);
+}
+.Filters .filterSection button:hover{
+    color: #fff;
+    background-image: linear-gradient(269deg, #0048ff, #2192FF);
+}
+
+/*************/
+/*********Cards**********/
+/*************/
+
+.cardsSection{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-wrap: wrap;
+    margin-top:20px ;
+}
+.cardsSection .cards {
+    width: 290px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 7px;
+    border: 1px solid rgb(122, 182, 202);
+}
+.cardsSection .cards .ImageSection img{
+    width: 290px;
+    height: 30vh;
+    border-radius:7px 7px 0 0 ;
+}
+.cardsSection .cards .textcontent{
+    margin: 0px 20px;
+}
+.cardsSection .cards .textcontent h3{
+    font-family: sans-serif;
+    font-weight: 540;
+}
+.cardsSection .cards .textcontent h4{
+    color: #2192FF;
+    font-weight: 400;
+}
+.cardsSection .cards .textcontent span{
+    color: black;
+}
+.cardsSection .cards .textcontent p{
+    color: rgb(181, 181, 181);
+    font-style:unset;
+    font-weight: 400;
+}
+
+
+

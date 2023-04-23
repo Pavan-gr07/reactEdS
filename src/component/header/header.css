@@ -1,0 +1,104 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px;
+    border-bottom: #CFD2CF 1px solid;
+    background-color: #fff;
+}
+
+.header p {
+    margin: 0;
+}
+
+.header .left {
+
+    display: flex;
+    align-items: center;
+}
+
+.header .left a img {
+    margin-right: 40px;
+    width: 150px;
+    height: 100px;
+}
+
+.header .right {
+
+    display: flex;
+    align-items: center;
+}
+
+#drop-down {
+    padding-left: 10px;
+}
+
+.header .right a {
+    margin-left: 40px;
+    background-color: blue;
+    padding: 10px 15px;
+    color: aliceblue;
+    border-radius: 40px;
+    text-decoration: none;
+    background-image: linear-gradient(269deg, #0048ff, #2192FF);
+}
+
+
+.heading-text {
+    color: #c7c4c4;
+    line-height: 15px;
+    font-size: large;
+}
+
+.heading03 {
+    padding: 10px 20px;
+}
+
+.header .left a {
+    text-decoration: none;
+}
+
+.header .left h1 {
+    color: #0084ff;
+    margin: 0;
+    padding: 0;
+    font-size: 2.1em;
+    width: 150px;
+    -webkit-font-smoothing: antialiased;
+    background-image: -webkit-linear-gradient(181deg, #0048ff, #0096ff),
+        -webkit-linear-gradient(#000, #000);
+    background-image: -o-linear-gradient(181deg, #0048ff, #0096ff),
+        -o-linear-gradient(#000, #000);
+    background-image: linear-gradient(269deg, #0048ff, #0096ff),
+        linear-gradient(#000, #000);
+    color: #0084ff;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Raleway, sans-serif;
+    font-weight: 900;
+    line-height: 1.08;
+    letter-spacing: -0.9px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.header .left a span {
+    font-style: italic;
+    font-size: 20px;
+    color: #000;
+    font-weight: 400;
+    letter-spacing: .01rem;
+}
+.header .left .explore:hover{
+    background-color: #2192FF;
+    padding: 10px;
+    border-radius: 5px;
+    scale: 1;
+    opacity: .8;
+    color: #fff;
+    cursor: pointer;
+}
+.header .left .explore:active{
+    opacity: .8;
+}

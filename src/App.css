@@ -1,0 +1,23 @@
+
+/*************/
+/* Header */
+/*************/
+.container{
+  margin-top: 0;
+  margin: 0px 180px;
+}
+
+/*************/
+/* Filter Section */
+/*************/
+
+.filtersection{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding:10px ;
+}
+.filter{
+  margin-left: 20px;
+}
+
